@@ -25,6 +25,6 @@ public final class ValidationError {
 
     @Override
     public String toString() {
-        return "Строка " + lineNumber + ", поле '" + field + "': " + message;
+        return "Строка " + lineNumber + ", поoле '" + field + "': " + message;
     }
 }
